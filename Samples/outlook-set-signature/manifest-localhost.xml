@@ -101,11 +101,12 @@
                 </Group>
               </OfficeTab>
             </ExtensionPoint>
-            
+
             <!-- Specify function to call for new message and new appointment events -->
             <ExtensionPoint xsi:type="LaunchEvent">
               <LaunchEvents>
                 <LaunchEvent Type="OnNewMessageCompose" FunctionName="checkSignature" />
+                <LaunchEvent Type="OnMessageRecipientsChanged" FunctionName="checkSignature" />
                 <LaunchEvent Type="OnNewAppointmentOrganizer" FunctionName="checkSignature" />
               </LaunchEvents>
               <SourceLocation resid="Autorun" />

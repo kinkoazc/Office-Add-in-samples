@@ -58,13 +58,13 @@ function insert_auto_signature(compose_type, user_info, eventObj) {
 }
 
 /**
- * 
+ *
  * @param {*} signatureDetails object containing:
  *  "signature": The signature HTML of the template,
     "logoBase64": The base64 encoded logo image,
     "logoFileName": The filename of the logo image
- * @param {*} eventObj 
- * @param {*} signatureImageBase64 
+ * @param {*} eventObj
+ * @param {*} signatureImageBase64
  */
 function addTemplateSignature(signatureDetails, eventObj, signatureImageBase64) {
   if (is_valid_data(signatureDetails.logoBase64) === true) {
@@ -78,7 +78,7 @@ function addTemplateSignature(signatureDetails, eventObj, signatureImageBase64) 
       function (result) {
         //After image is attached, insert the signature
         Office.context.mailbox.item.body.setSignatureAsync(
-          signatureDetails.signature,
+          signatureDetails.signature + (+new Date()),
           {
             coercionType: "html",
             asyncContext: eventObj,
@@ -92,7 +92,7 @@ function addTemplateSignature(signatureDetails, eventObj, signatureImageBase64) 
   } else {
     //Image is not embedded, or is referenced from template HTML
     Office.context.mailbox.item.body.setSignatureAsync(
-      signatureDetails.signature,
+      signatureDetails.signature + (+new Date()),
       {
         coercionType: "html",
         asyncContext: eventObj,
