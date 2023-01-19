@@ -1,7 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-// Contains code for event-based activation on both Outlook on web and Outlook on Windows.
+// Contains code for event-based activation on Outlook on web, on Windows, and on Mac (new UI preview).
 
 /**
  * Checks if signature exists.
@@ -45,8 +45,8 @@ function checkSignature(eventObj) {
 }
 
 /**
- * For Outlook on Windows only. Insert signature into appointment or message.
- * Outlook on Windows can use setSignatureAsync method on appointments and messages.
+ * For Outlook on Windows and on Mac only. Insert signature into appointment or message.
+ * Outlook on Windows and on Mac can use setSignatureAsync method on appointments and messages.
  * @param {*} compose_type The compose type (reply, forward, newMail)
  * @param {*} user_info Information details about the user
  * @param {*} eventObj Office event object
@@ -110,7 +110,7 @@ function addTemplateSignature(signatureDetails, eventObj, signatureImageBase64) 
 function display_insight_infobar() {
   Office.context.mailbox.item.notificationMessages.addAsync("fd90eb33431b46f58a68720c36154b4a", {
     type: "insightMessage",
-    message: "Please set your signature with the PnP sample add-in.",
+    message: "Please set your signature with the Office Add-ins sample.",
     icon: "Icon.16x16",
     actions: [
       {

@@ -20,6 +20,8 @@ description: "This sample shows how to add keyboard shortcuts to your Office Add
 
 This sample shows how to set up a basic Excel add-in project that utilizes keyboard shortcuts. Currently, the shortcuts are configured to show and hide the task pane as well as cycle through colors for a selected cell. Keyboard shortcuts can be used to achieve any action within the add-in runtime.
 
+![Screen shot of Excel showing the use of CTRL+SHIFT+UP to open the task pane, and CTRL+SHIFT+DOWN to close the task pane.](./assets/excel-keyboard-shortcuts-overview.jpg)
+
 ## Features
 
 - Add keyboard shortcuts to your Office Add-in.
@@ -85,7 +87,7 @@ Once the add-in is loaded use the following steps to try out the functionality.
 
 The manifest.xml is pre-configured to use the shared runtime. To see how to add shared runtime to your own add-in, use the following article:
 
-- [Configure your Excel Add-in to use a shared JavaScript runtime](https://docs.microsoft.com/en-us/office/dev/add-ins/excel/configure-your-add-in-to-use-a-shared-runtime)
+- [Configure your Excel Add-in to use a shared JavaScript runtime](https://learn.microsoft.com/office/dev/add-ins/excel/configure-your-add-in-to-use-a-shared-runtime)
 
 
 Additionally, the following changes have been made to enable keyboard shortcuts:
@@ -134,10 +136,16 @@ If you prefer to host the web server for the sample on your computer, follow the
     
 5. Follow the steps in [Run the sample](https://github.com/OfficeDev/PnP-OfficeAddins/tree/main/Samples/excel-keyboard-shortcuts#run-the-sample), but upload the `manifest-localhost.xml` file for step 6.
 
+## Questions and feedback
+
+- Did you experience any problems with the sample? [Create an issue](https://github.com/OfficeDev/Office-Add-in-samples/issues/new/choose) and we'll help you out.
+- We'd love to get your feedback about this sample. Go to our [Office samples survey](https://aka.ms/OfficeSamplesSurvey) to give feedback and suggest improvements.
+- For general questions about developing Office Add-ins, go to [Microsoft Q&A](https://learn.microsoft.com/answers/topics/office-js-dev.html) using the office-js-dev tag.
+
 ## Copyright
 
 Copyright (c) 2020 Microsoft Corporation. All rights reserved.
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
-<img src="https://telemetry.sharepointpnp.com/pnp-officeaddins/samples/excel-keyboard-shortcuts" />
+<img src="https://pnptelemetry.azurewebsites.net/pnp-officeaddins/samples/excel-keyboard-shortcuts" />

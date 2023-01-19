@@ -28,15 +28,15 @@ Here's how the samples look when running:
 
 ### Excel
 
-![](./images/excel-ribbon-buttons.png)
+![Screenshot showing the sample's show task pane button and a dropdown menu on the ribbon.](./images/excel-ribbon-buttons.png)
 
 ### Word
 
-![](./images/word-ribbon-buttons.png)
+![Screenshot showing the sample's show task pane button and a dropdown menu on the ribbon.](./images/word-ribbon-buttons.png)
 
 ### PowerPoint
 
-![](./images/powerpoint-ribbon-buttons.png)
+![Screenshot showing the sample's show task pane button and a dropdown menu on the ribbon.](./images/powerpoint-ribbon-buttons.png)
 
 ## Applies to
 
@@ -56,10 +56,16 @@ There are three samples for Excel, Word, and PowerPoint. Go to the folder of the
 
 ## Documentation
 
-- [Add-in commands for Excel, PowerPoint, and Word](https://docs.microsoft.com/office/dev/add-ins/design/add-in-commands)
-- [Create add-in commands in your manifest for Excel, PowerPoint, and Word](https://docs.microsoft.com/office/dev/add-ins/develop/create-addin-commands)
+- [Add-in commands for Excel, PowerPoint, and Word](https://learn.microsoft.com/office/dev/add-ins/design/add-in-commands)
+- [Create add-in commands in your manifest for Excel, PowerPoint, and Word](https://learn.microsoft.com/office/dev/add-ins/develop/create-addin-commands)
 - [FAQ](FAQ.md)
-- [Manifest reference](https://docs.microsoft.com/office/dev/add-ins/reference/manifest/extensionpoint)
+- [Manifest reference](https://learn.microsoft.com/office/dev/add-ins/reference/manifest/extensionpoint)
+
+## Questions and feedback
+
+- Did you experience any problems with the sample? [Create an issue](https://github.com/OfficeDev/Office-Add-in-samples/issues/new/choose) and we'll help you out.
+- We'd love to get your feedback about this sample. Go to our [Office samples survey](https://aka.ms/OfficeSamplesSurvey) to give feedback and suggest improvements.
+- For general questions about developing Office Add-ins, go to [Microsoft Q&A](https://learn.microsoft.com/answers/topics/office-js-dev.html) using the office-js-dev tag.
 
 ## Copyright
 
@@ -67,4 +73,4 @@ Copyright (c) 2021 Microsoft Corporation. All rights reserved.
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
-<img src="https://telemetry.sharepointpnp.com/pnp-officeaddins/samples/office-add-in-commands" />
+<img src="https://pnptelemetry.azurewebsites.net/pnp-officeaddins/samples/office-add-in-commands" />

@@ -72,7 +72,7 @@ Outlook Add-in Microsoft Graph ASP.NET | Microsoft
 
 1. **Visual Studio** で、**Outlook-Add-in-Microsoft-Graph-ASPNETWeb** プロジェクトを選択します。**[プロパティ]** で、**[SSL が有効]** が **True** であることを確認します。**[SSL URL]** で、次の手順でリストされているのと同じドメイン名とポート番号が使用されていることを確認します。
  
-2. [Azure の管理ポータル](https://manage.windowsazure.com)を使用してアプリケーションを登録します。**Office 365 テナントの管理者の ID でログインして、そのテナントに関連付けられている Azure Active Directory で作業していることを確認します。**アプリケーションの登録の方法については、「[Microsoft ID プラットフォームにアプリケーションを登録する](https://docs.microsoft.com/graph/auth-register-app-v2)」を参照してください。次に示す設定を使用します。
+2. [Azure の管理ポータル](https://manage.windowsazure.com)を使用してアプリケーションを登録します。**Office 365 テナントの管理者の ID でログインして、そのテナントに関連付けられている Azure Active Directory で作業していることを確認します。**アプリケーションの登録の方法については、「[Microsoft ID プラットフォームにアプリケーションを登録する](https://learn.microsoft.com/graph/auth-register-app-v2)」を参照してください。次に示す設定を使用します。
 
  - REDIRCT URI: https://localhost:44301/AzureADAuth/Authorize
  - サポートされているアカウントの種類:"この組織のディレクトリ内のアカウントのみ"
@@ -129,12 +129,12 @@ Office 365 開発全般の質問につきましては、「[Stack Overflow](http
 
 ## その他のリソース
 
-* [Microsoft Graph ドキュメント](https://docs.microsoft.com/graph/)
-* [Office アドイン ドキュメント](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)
+* [Microsoft Graph ドキュメント](https://learn.microsoft.com/graph/)
+* [Office アドイン ドキュメント](https://learn.microsoft.com/office/dev/add-ins/overview/office-add-ins)
 
 ## 著作権
 Copyright (c) 2019 Microsoft Corporation.All rights reserved.
 
 このプロジェクトでは、[Microsoft オープン ソース倫理規定](https://opensource.microsoft.com/codeofconduct/)が採用されています。詳細については、「[倫理規定の FAQ](https://opensource.microsoft.com/codeofconduct/faq/)」を参照してください。また、その他の質問やコメントがあれば、[opencode@microsoft.com](mailto:opencode@microsoft.com) までお問い合わせください。
 
-<img src="https://telemetry.sharepointpnp.com/pnp-officeaddins/auth/Outlook-Add-in-Microsoft-Graph-ASPNET" />
+<img src="https://pnptelemetry.azurewebsites.net/pnp-officeaddins/auth/Outlook-Add-in-Microsoft-Graph-ASPNET" />

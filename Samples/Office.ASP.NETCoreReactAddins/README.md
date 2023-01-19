@@ -1,6 +1,6 @@
 # ASP.NET Core, React.js and Office UI Fabric React sample task pane web projects for Visual Studio 2019
 
-This sample shows how to add Office UI Fabric React to an Excel Web Add-in project in Visual Studio 2019. You can build great cross-platform UI using the style and controls of Office UI Fabric React. This sample uses [React.js](https://reactjs.org/), [Office UI Fabric React](https://github.com/OfficeDev/office-ui-fabric-react), and the [React project template with ASP.NET Core](https://docs.microsoft.com/aspnet/core/client-side/spa/react). The template is equivalent to creating both an ASP.NET Core project and a standard create-react-app (CRA) React project to act as a UI, but with the convenience of hosting both in a single app project that you can build and publish as a single unit. To develop an add-in from the template, you can either add a Web API to the ASP.NET Core project or you can develop the project as a single-page React add-in. Since the project uses React as the UI, you should not attempt to use UI features of ASP.NET Core.
+This sample shows how to add Office UI Fabric React to an Excel Web Add-in project in Visual Studio 2019. You can build great cross-platform UI using the style and controls of Office UI Fabric React. This sample uses [React.js](https://reactjs.org/), [Office UI Fabric React](https://github.com/OfficeDev/office-ui-fabric-react), and the [React project template with ASP.NET Core](https://learn.microsoft.com/aspnet/core/client-side/spa/react). The template is equivalent to creating both an ASP.NET Core project and a standard create-react-app (CRA) React project to act as a UI, but with the convenience of hosting both in a single app project that you can build and publish as a single unit. To develop an add-in from the template, you can either add a Web API to the ASP.NET Core project or you can develop the project as a single-page React add-in. Since the project uses React as the UI, you should not attempt to use UI features of ASP.NET Core.
 
 We'd like to hear about your experience with this sample and using ASP.NET Core with Office UI Fabric React and Office Add-ins. Just submit a new issue in this repo to let us know if you have any questions or suggestions.
 
@@ -46,9 +46,9 @@ We'd like to hear about your experience with this sample and using ASP.NET Core 
 
 ### Add the ASP.NET Core React.js web project to the solution
 
-1. Download or clone this repo. This will create a **PnP-OfficeAddins** folder.
+1. Download or clone this repo. This will create a **Office-Add-in-samples** folder.
 2. In Visual Studio, right-click the solution in **Solution Explorer** and choose **Add > Existing Project**.
-3. In the **Add Existing Project** dialog, go to the **PnP-OfficeAddins/Samples/Office.ASP.NETCoreReactAddins** folder. There are two project folders there: **excel-js** (JavaScript) and **excel-ts** (TypeScript). Choose the folder for the language you want to use, select the .csproj file in the folder, and then choose **Open**.
+3. In the **Add Existing Project** dialog, go to the **Office-Add-in-samples/Samples/Office.ASP.NETCoreReactAddins** folder. There are two project folders there: **excel-js** (JavaScript) and **excel-ts** (TypeScript). Choose the folder for the language you want to use, select the .csproj file in the folder, and then choose **Open**.
 4. Right-click the project that you just added in **Solution Explorer** and choose **Build**.
 5. Select the add-in project in Solution Explorer. It will have the name you gave the project (such as `MyWebAddin`) and have the icon shown in the following screen shot.
 

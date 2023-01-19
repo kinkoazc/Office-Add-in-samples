@@ -20,6 +20,8 @@ description: 'Create a simple Office Add-in that displays hello world.'
 
 Learn how to build the simplest Office Add-in with only a manifest, HTML web page, and a logo. This sample will help you understand the fundamental parts of an Office Add-in.
 
+![Diagram showing a hello project consists of a manifest, HTML page, and image assets.](./images/hello-world-introduction.png)
+
 ## Features
 
 - Display hello world in Outlook, Word, Excel, or PowerPoint.
@@ -50,7 +52,7 @@ To work with the samples, clone or download this repo. Then go to the folder con
 
 ## Key components
 
-The hello world sample implements the **Manifest** and **Web app** components identified in [Components of an Office Add-in](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins#components-of-an-office-add-in).
+The hello world sample implements the **Manifest** and **Web app** components identified in [Components of an Office Add-in](https://learn.microsoft.com/office/dev/add-ins/overview/office-add-ins#components-of-an-office-add-in).
 
 ### Manifest
 
@@ -73,4 +75,4 @@ Copyright (c) 2021 Microsoft Corporation. All rights reserved.
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
-<img src="https://telemetry.sharepointpnp.com/pnp-officeaddins/samples/office-add-in-hello-world" />
+<img src="https://pnptelemetry.azurewebsites.net/pnp-officeaddins/samples/office-add-in-hello-world" />
